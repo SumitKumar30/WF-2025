@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 Semantic Elements Demo</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header, nav, main, section, article, aside, footer {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin: 10px;
+    }
+    header {
+      background-color: #f8f9fa;
+    }
+    nav {
+      background-color: #dee2e6;
+    }
+    main {
+      display: flex;
+      gap: 10px;
+    }
+    article {
+      flex: 2;
+      background-color: #e9ecef;
+    }
+    aside {
+      flex: 1;
+      background-color: #f1f3f5;
+    }
+    footer {
+      background-color: #ced4da;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Semantic HTML5 Demo</h1>
+    <p>This is the header of the webpage.</p>
+  </header>
+
+  <nav>
+    <strong>Navigation Bar:</strong>
+    <a href="#">Home</a> |
+    <a href="#">About</a> |
+    <a href="#">Services</a> |
+    <a href="#">Contact</a>
+  </nav>
+
+  <main>
+    <article>
+      <h2>Main Article</h2>
+      <p>This is the main content area, wrapped in an <code>&lt;article&gt;</code> tag.</p>
+
+      <section>
+        <h3>Section 1</h3>
+        <p>This section is inside the article.</p>
+      </section>
+
+      <section>
+        <h3>Section 2</h3>
+        <p>This is another section inside the article.</p>
+      </section>
+    </article>
+
+    <aside>
+      <h3>Sidebar (Aside)</h3>
+      <p>This is an <code>&lt;aside&gt;</code> — usually for related links or ads.</p>
+    </aside>
+  </main>
+
+  <footer>
+    <p>© 2025 Semantic Web Tutorial. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
