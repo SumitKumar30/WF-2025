@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+</head>
+<body>
+     <!-- Elements in HTML -->
+  <p id="intro">Hello, World!</p>
+  <button>Click Me</button>
+  <p class="info">This is the first paragraph.</p>
+  <p class="info">This is the second paragraph.</p>
+
+  <script>
+    // Find element by ID
+    var byId = document.getElementById("intro").innerHTML;
+    console.log("By ID: " + byId);
+
+    // Find element by Tag Name
+    var byTag = document.getElementsByTagName("button")[0].innerHTML;
+    console.log("By Tag Name: " + byTag);
+
+    // Find element by Class Name
+    var byClass = document.getElementsByClassName("info")[1].innerHTML;
+    console.log("By Class Name: " + byClass);
+  </script>
+</body>
+</html>

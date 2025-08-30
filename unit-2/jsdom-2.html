@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Change Value of HTML Elements</title>
+</head>
+<body>
+  <h2 id="title">Original Heading</h2>
+  <p id="para">This is a paragraph.</p>
+  <input type="text" id="myInput" value="Default Value">
+
+  <br><br>
+  <button onclick="changeValues()">Click to Change</button>
+
+  <script>
+    function changeValues() {
+      // innerHTML – modifies HTML content
+      document.getElementById("title").innerHTML = "<i>Heading Changed using innerHTML</i>";
+
+      // innerText – modifies only text (HTML tags will be shown as text)
+      document.getElementById("para").innerText = "<b>Changed using innerText</b>";
+
+      // value – changes the value inside input box
+      document.getElementById("myInput").value = "Value Changed!";
+    }
+  </script>
+</body>
+</html>
