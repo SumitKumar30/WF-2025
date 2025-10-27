@@ -1,0 +1,50 @@
+.container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.card {
+  width: 120px;
+  height: 120px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.blue {
+  color: blue;
+}
+
+.btn-try {
+  background-color: #a68b8b;
+  border: none;
+  padding: 10px 25px;
+  font-size: 16px;
+  color: black;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.btn-try:hover {
+  background-color: #8d7373;
+}
